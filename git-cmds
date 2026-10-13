@@ -1,0 +1,50 @@
+   47  git commit -m "Initial commit"
+   48  git branch -M main
+   49  git remote add origin https://github.com/prasadarajui/DO400-pipelines-lab.git
+   50  git push --set-upstream origin main
+   51  ls
+   52  pwd
+   53  cd ..
+   54  git config --global user.name "prasadarajui"
+   55  git config --global user.email "prasadarajui@gmail.com"
+   56  git config --list
+   57  cd pipelines-lab/
+   58  git init
+   59  git add .
+   60  git commit -m "Initial commit"
+   61  git branch -M main
+   62  git remote add origin https://github.com/prasadarajui/DO400-pipelines-lab.git
+   63  git push --set-upstream origin main
+   64  pwd
+   65  exit
+   66  ls
+   67  cd DO400/
+   68  ls
+   69  git config --list
+   70  cd pipelines-lab/
+   71  git init
+   72  git add .
+   73  git commit -m "Initial commit1"
+   74  git branch -M main
+   75  git remote add origin https://github.com/prasadarajui/DO400-pipelines-lab.git
+   76  git push --set-upstream origin main
+   77  git remote -v
+   78  pwd
+   79  cd ..
+   80  git remote -v
+   81  cd pipelines-lab/
+   82  git remote -v
+   83  git remote add origin https://github.com/prasadarajui/D0400-pipelines-lab.git
+   84  git branch -M main
+   85  git push -u origin main
+   86  git branch --show-current
+   87  git remote get-url origin
+   88  git push -u origin main
+   89  vi git-error
+   90  ls
+   91  git remote -v
+   92  git remote set-url origin https://github.com/prasadarajui/DO400-pipelines-lab.git
+   93  git add git-error 
+   94  git commit -m "Update project content"
+   95  git push -u origin main
+   96  history |tail -50 >>git-cmds
